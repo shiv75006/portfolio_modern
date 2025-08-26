@@ -29,7 +29,7 @@ const Hero = () => {
                   Web Technologies / Machine Learning / Cloud Computing
                 </p>
                 
-                <p className="text-base sm:text-lg md:text-xl text-white/80 max-w-2xl mx-auto mt-3 sm:mt-4 text-justify">{item.bio}</p>
+                <p className="text-base sm:text-lg md:text-xl text-white/80 max-w-2xl mx-auto mt-3 sm:mt-4">{item.bio}</p>
                 
                 <div className="mt-8 sm:mt-10 flex flex-wrap gap-3 sm:gap-4 justify-center">
                   <a 

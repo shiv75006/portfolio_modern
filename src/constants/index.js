@@ -36,7 +36,7 @@ import { reactLogo,
 
 export const heroContent = [
     {
-       bio:"I am a multi-talented graphic designer, web developer, and a dedicated student at Graphic Era Deemed to be University, Dehradun.",
+       bio:"I am a dedicated web developer, currently working as an Engineer Trainee at HashedIn by Deloitte, where I contribute to building scalable and user-focused digital solutions.",
        firstName:"Shivyanshu",
        lastName:"Saini",
        profile:"Web Tecgnologies/Machine Learning/Cloud Computing"
