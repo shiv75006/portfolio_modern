@@ -37,7 +37,7 @@ const Navbar = () => {
           {navLinks.map((item) => (
             <li className='group relative' key={item.label}>
               <a 
-                className='font-medium text-white/70 hover:text-white block text-center transition-all duration-300' 
+                className='font-thin text-white/70 hover:text-white block text-center transition-all duration-300' 
                 href={item.href}
               >
                 {item.label}
@@ -72,7 +72,7 @@ const Navbar = () => {
             {navLinks.map((item) => (
               <li key={item.label}>
                 <a 
-                  className='font-medium text-white/70 hover:text-white block py-2 text-center transition-all duration-300' 
+                  className='font-thin text-white/70 hover:text-white block py-2 text-center transition-all duration-300' 
                   href={item.href}
                   onClick={() => setnavShow(false)}
                 >
