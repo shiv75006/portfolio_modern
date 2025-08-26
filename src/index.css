@@ -1,0 +1,167 @@
+/* Using Poppins font from Google Fonts */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000; /* Dark black fallback */
+  color: #FFFFFF;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Radial background removed */
+
+@font-face {
+  font-family: "Black_Mustang";
+  src: local("Black_Mustang"),
+    url("./fonts/Black_Mustang.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Amelaryas";
+  src: local("Amelaryas"),
+    url("./fonts/Amelaryas.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Agraham";
+  src: local("Agraham"),
+    url("./fonts/Agraham.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Bernard";
+  src: local("Bernard"),
+  url(fonts/BernardstonDemoRegular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Ginger";
+  src: local("Ginger"),
+    url("./fonts/Ginger.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "OPHELIA";
+  src: local("OPHELIA"),
+    url("./fonts/OPHELIA.otf") format("opentype");
+}
+
+@layer components {
+  .heading-underline {
+    @apply relative pb-2 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-24 after:h-0.5 after:bg-gradient-to-r after:from-aqua-teal after:via-muted-purple after:to-sunset-orange;
+  }
+  
+  .neon-text {
+    @apply bg-gradient-text text-transparent bg-clip-text font-bold;
+  }
+  
+  .neon-border {
+    @apply border border-white/10 shadow-glass-card;
+  }
+  
+  .neon-button {
+    @apply bg-gradient-button text-white rounded-full px-8 py-3 font-semibold transition-all duration-300 hover:scale-105;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-center text-white mb-12 neon-text;
+  }
+  
+  /* Glassmorphism Components */
+  .glass-panel {
+    @apply bg-gradient-card backdrop-blur-glass border border-white/5 rounded-2xl shadow-glass-card;
+  }
+  
+  .glass-panel-hover {
+    @apply glass-panel transition-all duration-300 hover:border-white/10 hover:bg-gradient-card-hover hover:shadow-glass-hover;
+  }
+  
+  .glass-card {
+    @apply glass-panel p-6 md:p-8 backdrop-blur-glass;
+  }
+  
+  .glass-nav {
+    @apply bg-dark-surface/80 backdrop-blur-strong border-b border-white/5 shadow-glass;
+  }
+  
+  .glass-button {
+    @apply backdrop-blur-glass bg-white/5 border border-white/10 rounded-full px-8 py-3 
+    transition-all duration-300 hover:bg-white/10 hover:shadow-glass-button;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-text text-transparent bg-clip-text font-bold;
+  }
+  
+  .gradient-border {
+    @apply border border-transparent bg-gradient-border rounded-2xl p-[1px] shadow-glass-card;
+  }
+  
+  .gradient-border-content {
+    @apply bg-dark-bg/90 backdrop-blur-glass rounded-2xl w-full h-full;
+  }
+  
+  /* New Components */
+  .hero-title {
+    @apply text-4xl md:text-6xl lg:text-7xl font-black gradient-text tracking-tight leading-tight;
+  }
+  
+  .hero-subtitle {
+    @apply text-lg md:text-xl text-white/80 max-w-2xl mx-auto mt-4;
+  }
+  
+  .floating-card {
+    @apply glass-card shadow-floating animate-float;
+  }
+  
+  .glow-border {
+    @apply relative before:absolute before:inset-0 before:rounded-2xl before:p-[1px] before:bg-gradient-border before:opacity-50 before:-z-10 before:blur-sm;
+  }
+  
+  .pill-tag {
+    @apply inline-block px-4 py-1.5 rounded-full text-xs font-medium bg-gradient-to-r from-aqua-teal/20 to-muted-purple/20 border border-white/10 shadow-sm backdrop-blur-sm transition-all duration-300 hover:shadow-md hover:border-white/20;
+  }
+  
+  .gradient-pill {
+    @apply inline-block px-6 py-2 rounded-full text-sm font-medium bg-gradient-button text-white transition-all duration-300 hover:scale-105;
+  }
+}
+
+@layer utilities {
+  .font-custom {
+    font-family: "Poppins";
+  }
+  
+  .font-ophelia {
+    font-family: "OPHELIA", sans-serif;
+  }
+  
+  .glass-border {
+    @apply border border-white/20 hover:border-white/40 transition-all duration-300;
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+}
