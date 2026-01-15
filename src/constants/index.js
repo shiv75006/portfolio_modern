@@ -209,7 +209,7 @@ export const experience = [
         company: 'HashedIn by Deloitte',
         position: 'Software Engineer',
         duration: 'Sep 2025 – Present',
-        location: 'Bangalore, India',
+        location: 'Gurgaon, India',
         description: 'Working as a full-time Software Engineer on enterprise-grade web applications within an agile development environment. Played a key role in the PMO Assist project, independently designing and developing the WSR (Weekly Status Report) Generation feature from scratch. Built and maintained multiple reusable and scalable React components with a focus on performance, maintainability, and clean UI architecture. Implemented secure JWT token decoding with decompression of compressed claims. Integrated multiple backend APIs ensuring reliable data flow and seamless frontend–backend communication. Collaborated with cross-functional teams (product, backend, QA) to deliver production-ready features that drove ~90% impact on the overall web application development.',
         technologies: ['React.js', 'JWT Authentication', 'REST APIs', 'Responsive Design', 'Agile Development', 'Component Architecture', 'JavaScript (ES6+)', 'HTML5', 'CSS3'],
         achievements: [
