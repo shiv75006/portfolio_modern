@@ -182,7 +182,7 @@ const Contacts = () => {
                                 </div>
                                 <div>
                                     <p className="text-white/60 text-xs sm:text-sm mb-1">Location</p>
-                                    <p className="text-white text-sm sm:text-base font-medium">Bangalore, India</p>
+                                    <p className="text-white text-sm sm:text-base font-medium">Gurgaon, India</p>
                                 </div>
                             </div>
                             
