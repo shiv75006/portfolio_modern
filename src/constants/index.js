@@ -207,10 +207,26 @@ export const experience = [
     {
         key: '1',
         company: 'HashedIn by Deloitte',
+        position: 'Software Engineer',
+        duration: 'September 2025 – Present',
+        location: 'Bangalore, India',
+        description: 'Working as a full-time Software Engineer on enterprise-grade web applications within an agile development environment. Played a key role in the PMO Assist project, independently designing and developing the WSR (Weekly Status Report) Generation feature from scratch. Built and maintained multiple reusable and scalable React components with a focus on performance, maintainability, and clean UI architecture. Implemented secure JWT token decoding with decompression of compressed claims. Integrated multiple backend APIs ensuring reliable data flow and seamless frontend–backend communication. Collaborated with cross-functional teams (product, backend, QA) to deliver production-ready features that drove ~90% impact on the overall web application development.',
+        technologies: ['React.js', 'JWT Authentication', 'REST APIs', 'Responsive Design', 'Agile Development', 'Component Architecture', 'JavaScript (ES6+)', 'HTML5', 'CSS3'],
+        achievements: [
+            'Independently designed and developed WSR Generation feature from scratch',
+            'Contributed to features driving ~90% impact on web application development',
+            'Built reusable React components focused on performance and maintainability',
+            'Successfully implemented secure JWT token decoding with claim decompression',
+            'Collaborated with cross-functional teams to deliver production-ready features'
+        ]
+    },
+    {
+        key: '2',
+        company: 'HashedIn by Deloitte',
         position: 'Trainee Engineer',
         duration: 'Jul 2025 – Sep 2025',
         location: 'Bangalore, India',
-        description: 'Worked on backend development using Java Spring Boot for enterprise-grade applications. Developed dynamic frontends with AngularJS to enhance user experience. Implemented real-time data pipelines using Apache Kafka and Databricks. Worked with Oracle Data Integrator (ODI) for ETL processes and data integration workflows. Collaborated with cross-functional teams in agile sprints, contributing to design and implementation. Integrated REST APIs with frontend and backend services ensuring secure data transfer. Optimized SQL queries and stored procedures to improve system performance. Contributed to CI/CD pipelines with Jenkins and GitHub Actions for smooth deployments. Participated in code reviews, improving code quality and following best practices. Assisted in migrating legacy modules to microservices architecture. Documented technical processes and created knowledge-sharing guides for new team members. Analyzed and debugged production issues, reducing bug resolution time by 20%. Collaborated with senior engineers to implement scalable solutions for high-volume data processing.',
+        description: 'Worked on backend development using Java Spring Boot for enterprise-grade applications. Developed dynamic frontends with AngularJS to enhance user experience. Implemented real-time data pipelines using Apache Kafka and Databricks. Worked with Oracle Data Integrator (ODI) for ETL processes and data integration workflows. Collaborated with cross-functional teams in agile sprints, contributing to design and implementation.',
         technologies: ['Java Spring Boot', 'AngularJS', 'Apache Kafka', 'Databricks', 'Oracle Data Integrator (ODI)', 'SQL', 'Jenkins', 'GitHub Actions', 'Docker', 'Microservices Architecture'],
         achievements: [
             'Improved ETL pipeline efficiency by 15% through ODI workflow optimization',
@@ -219,7 +235,7 @@ export const experience = [
         ]
     },
     {
-        key: '2',
+        key: '3',
         company: 'Association for Advancement in Combinatorial Sciences',
         position: 'React Developer Intern',
         duration: 'Jul 2024 – Aug 2024',
